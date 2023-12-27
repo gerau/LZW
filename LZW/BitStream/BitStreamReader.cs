@@ -108,7 +108,7 @@ namespace LZW.BitStream
             }
             return res;
         }
-        public void closeReader()
+        public void Close()
         {
             reader.Close();
         }
